@@ -1,0 +1,194 @@
+/* =========================
+   GLOBAL FORM ELEMENTS
+========================= */
+
+.input,
+select,
+textarea {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  font-size: 14px;
+  background: #fff;
+  outline: none;
+  transition: 0.2s ease;
+}
+
+.input:focus,
+select:focus,
+textarea:focus {
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.15);
+}
+
+/* textarea sizing */
+textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+
+/* =========================
+   BUTTONS
+========================= */
+
+.btn {
+  padding: 10px 14px;
+  border-radius: 12px;
+  font-size: 14px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+/* Primary */
+.btn-primary {
+  background: #2563eb;
+  color: white;
+}
+
+.btn-primary:hover {
+  background: #1d4ed8;
+}
+
+/* Secondary */
+.btn-secondary {
+  background: #f3f4f6;
+  color: #111827;
+}
+
+.btn-secondary:hover {
+  background: #e5e7eb;
+}
+
+/* Danger */
+.btn-danger {
+  background: #dc2626;
+  color: white;
+}
+
+.btn-danger:hover {
+  background: #b91c1c;
+}
+
+
+/* =========================
+   CARD COMPONENTS
+========================= */
+
+.card {
+  background: white;
+  border: 1px solid #e5e7eb;
+  border-radius: 18px;
+  padding: 20px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+  transition: 0.2s ease;
+}
+
+.card-hover:hover {
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+  border-color: #d1d5db;
+  cursor: pointer;
+}
+
+
+/* =========================
+   CARD CONTENT LAYOUT
+========================= */
+
+.card-content {
+  display: grid;
+  gap: 14px;
+}
+
+
+/* =========================
+   BADGES / STATUS TAGS
+========================= */
+
+.badge {
+  display: inline-block;
+  padding: 4px 10px;
+  font-size: 12px;
+  border-radius: 999px;
+  font-weight: 600;
+}
+
+/* Status colors */
+.badge-blue {
+  background: #dbeafe;
+  color: #1d4ed8;
+}
+
+.badge-green {
+  background: #dcfce7;
+  color: #166534;
+}
+
+.badge-yellow {
+  background: #fef9c3;
+  color: #92400e;
+}
+
+.badge-gray {
+  background: #f3f4f6;
+  color: #374151;
+}
+
+.badge-red {
+  background: #fee2e2;
+  color: #991b1b;
+}
+
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+.grid-gap {
+  display: grid;
+  gap: 16px;
+}
+
+.flex-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-sm {
+  font-size: 12px;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+
+/* =========================
+   Form field
+========================= */
+
+.form-field {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  font-size: 14px;
+  background: #fff;
+  outline: none;
+  transition: 0.2s ease;
+}
+
+.form-field:focus {
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.15);
+}
